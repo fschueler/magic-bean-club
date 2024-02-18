@@ -1,6 +1,7 @@
 baseURL = 'https://fschueler.github.io/magic-bean-club/'
 languageCode = 'en-us'
 title = 'The Magic Bean Club'
+relativeURLs = true
 
 [params]
 name = 'Felix'
