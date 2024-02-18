@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns: 200px 1fr;
     grid-template-rows: 120px 1fr 20px;
     gap: 10px;
     min-width: 800px;
@@ -31,10 +31,16 @@ body {
 }
 
 nav {
-    ul {
-        li {
-            display: grid;
-        }
+    ul {}
+
+    li {
+        margin: 0;
+        padding: 10px 0 20px 50px;
+        list-style: none;
+        background-image: url("../images/bean-nav.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 40px;
     }
 }
 
