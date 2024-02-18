@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://fschueler.github.io/magic-bean-club/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'The Magic Bean Club'
 
 [params]
 name = 'Felix'
