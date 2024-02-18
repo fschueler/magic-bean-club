@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+    {{ partial "meta.html" . }}
+</head>
+
+<body>
+    <div class="header-box">
+        {{ partial "header.html" }}
+    </div>
+    <div class="sidenav-box">
+        {{ partial "nav.html" }}
+    </div>
+    <div class="main-box">
+        {{ block "main" . }}
+        {{ end }}
+    </div>
+    <div class="footer-box">
+        {{ partial "footer.html" . }}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+{{ $image := resources.Get "img/peas.png" }}
+{{ $image := $image.Process "crop 600x555" }}
+<div class="header">
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+
+    <span>The Magic Bean Club!</span>
+</div>

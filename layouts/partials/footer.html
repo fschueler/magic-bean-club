@@ -1,0 +1,10 @@
+{{ with .Params.hide_footer }}
+<!-- No footer here! -->
+{{ else }}
+<footer>
+    Website made by {{ .Site.Params.name }} in {{ now.Year }}
+    <br>
+    Logo: peas by ji-na seo from <a href="https://thenounproject.com/browse/icons/term/peas/" target="_blank"
+        title="peas Icons">Noun Project</a> (CC BY 3.0)
+</footer>
+{{ end }}
