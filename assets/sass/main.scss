@@ -3,7 +3,8 @@ body {
     grid-template-columns: 150px 1fr;
     grid-template-rows: 120px 1fr 20px;
     gap: 10px;
-    width: 800px;
+    min-width: 800px;
+    min-height: 600px;
 }
 
 .header-box {
@@ -13,8 +14,12 @@ body {
 
 .header {
     span {
-        font-size: 80px;
+        font-size: 5vh;
         vertical-align: baseline;
+    }
+
+    img {
+        max-width: 100%;
     }
 
     text-align: left;
@@ -44,9 +49,8 @@ nav {
 }
 
 footer {
-    background: #f2f2f2;
     font-size: .7em;
-    text-align: center;
+    margin-left: 50px;
 }
 
 #map {
